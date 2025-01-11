@@ -34,6 +34,13 @@ public class Main {
         }
 
 
+        Person user = new Person("Jesiel", 24, "123.123.123-12");
+
+        user.setName("Maria");
+        user.setAge(30);
+
+        System.out.println("\nInformações Atualizadas:");
+        user.showInfo();
 
     }
 
